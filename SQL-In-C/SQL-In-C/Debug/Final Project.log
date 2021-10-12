@@ -1,0 +1,37 @@
+﻿  Source.cpp
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Maps\MultiMap.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Table\record.h(24,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Table\record.h(60,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Table\Table.h(33,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\BTrees\BTree_Util_Functions.h(241,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Maps\MPair.h(56): message : see reference to function template instantiation 'std::ostream &operator <<<V>(std::ostream &,const std::vector<V,std::allocator<V>> &)' being compiled
+          with
+          [
+              V=std::string
+          ]
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Maps\MPair.h(54): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const MPair<K,V> &)'
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\BTrees\BPlusTree.h(757): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,const MPair<K,V> &)' being compiled
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\BTrees\BPlusTree.h(134): message : see reference to class template instantiation 'MPair<K,V>' being compiled
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Maps\MultiMap.h(88): message : see reference to class template instantiation 'BPlusTree<MPair<K,V>>' being compiled
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+C:\Users\gghar\OneDrive\Desktop\C++ Directory\!includes\Parser\Parser.h(52): message : see reference to class template instantiation 'MMap<std::string,std::string>' being compiled
+  Final Project.vcxproj -> C:\Users\gghar\OneDrive\Desktop\C++ Directory\CS008 Barkeshli\Final Project\Debug\Final Project.exe
